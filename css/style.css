@@ -1,0 +1,174 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #EEEEEE;
+  font-size: 16px;
+  color: #666666;
+  margin: 0px
+}
+.top-bar {
+  width: 100%;
+  height: 50px;
+  background-color: #056CB6;
+  color: white;
+  line-height: 50px
+}
+.top-bar a {
+  color: white;
+}
+.top-bar a:hover {
+  color: #FFC113
+}
+.navbar .navbar-nav .nav-item .nav-link {
+  padding: 8px 20px;
+  border-radius: 5px
+}
+.navbar .navbar-nav .nav-item .nav-link:hover {
+  color: #056CB6;
+  background-color: #FFC113;
+}
+.navbar .navbar-nav .nav-item .dropdown-menu {
+  background-color: #056CB6;
+}
+.navbar .navbar-nav .nav-item .dropdown-menu li {
+  border-bottom: 1px solid white;
+}
+.navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-item {
+  color: white;
+  transition: all 1s
+}
+.navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-item:hover {
+  background-color: #FFC113;
+  padding-left: 30px
+}
+main {
+  width: 100%;
+  min-height: 500px
+}
+.btn-secondary {
+  background-color: #FFC113;
+  color: white
+}
+.btn-secondary:hover {
+  background-color: #C49103;
+}
+.gach-chan {
+  border-bottom: 2px solid #FFC113;
+  padding-bottom: 30px
+}
+footer .navbar-nav .navbar-item .nav-link {
+  padding-bottom: 40px
+}
+footer .navbar-nav .navbar-item .nav-link:hover {
+  color: #FFC111;
+}
+.top-cuoi {
+  width: 100%;
+  height: 50px;
+  background-color: #FFC113;
+  color: white;
+  line-height: 50px
+}
+#service a {
+  text-decoration: none;
+  color: #525252
+}
+#service a:hover {
+  color: #FFC113
+}
+#why {
+  width: 100%;
+  min-height: 350px;
+  background: url("../images/why.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top
+}
+#client .hinh {
+  position: relative
+}
+#client .truoc {
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 6px;
+  background-color: white;
+  color: #4f4f4f
+}
+#client .sau {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  padding: 6px;
+  background-color: white;
+  color: #4f4f4f
+}
+#client a {
+  text-decoration: none;
+  color: white
+}
+#client .btn-primary:hover {
+  background-color: #FFC113
+}
+#client .btn-primary {
+  margin-bottom: 15px
+}
+#camnhan .noidung img {
+  width: 80px;
+  height: 80px;
+  padding: 3px
+}
+#camnhan .noidung {
+  padding: 0 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center
+}
+#camnhan .vien {
+  border: 2px solid #FFC113
+}
+#tintuc a{
+	text-decoration: none;font-weight: bold;font-size: 17px;color: #333333
+}
+#tintuc a:hover{
+	color: #FFC113
+}
+#datlich .hoten{
+	font-size: 15px
+}
+#datlich a {
+  text-decoration: none;
+  color: white
+}
+#datlich .btn-primary:hover {
+	background-color: #FFC113}
+.custom{
+	width: 100%;
+  min-height: 300px;
+  background: url( "../images/pageheader.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center left
+}
+#hinhanh .hinh {
+  position: relative
+}
+#hinhanh .truoc {
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 6px;
+  background-color: white;
+  color: #4f4f4f
+}
+#hinhanh .sau {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  padding: 6px;
+  background-color: white;
+  color: #4f4f4f
+}
